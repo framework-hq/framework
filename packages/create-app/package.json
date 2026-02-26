@@ -6,7 +6,10 @@
   "bin": {
     "create-framework": "./dist/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist",
+    "templates"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts"
@@ -22,7 +25,13 @@
     "tsx": "^4.19.0",
     "typescript": "^5.9.0"
   },
-  "keywords": ["framework", "create", "scaffold", "internal-tools", "templates"],
+  "keywords": [
+    "framework",
+    "create",
+    "scaffold",
+    "internal-tools",
+    "templates"
+  ],
   "author": "FrameWork Contributors",
   "license": "MIT",
   "repository": {
