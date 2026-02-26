@@ -1,5 +1,9 @@
 import { config } from "../config";
 import * as Icons from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+
+// Type-safe icon lookup
+const iconMap = Icons as unknown as Record<string, LucideIcon>;
 
 export function Features() {
   return (
@@ -18,8 +22,7 @@ export function Features() {
         {/* Features grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {config.features.map((feature, index) => {
-            // Dynamically get the icon component
-            const IconComponent = (Icons as Record<string, React.ComponentType<{ className?: string }>>)[feature.icon] || Icons.Circle;
+            const IconComponent = iconMap[feature.icon] || Icons.Circle;
             
             return (
               <div

@@ -1,7 +1,7 @@
 import type { Invoice, Client } from "../types";
 import { mockInvoices, mockClients } from "./mock-data";
 import { settings } from "../config";
-import { addDays, format } from "date-fns";
+import { format } from "date-fns";
 
 // In-memory store for demo
 let invoices = [...mockInvoices];

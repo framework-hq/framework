@@ -3,7 +3,7 @@ import { format } from "date-fns";
 import { Clock } from "lucide-react";
 import { generateTimeSlots, formatTime, formatDate } from "../lib/calendar";
 import { getBookingsByDate } from "../lib/api";
-import type { TimeSlot, Booking } from "../types";
+import type { TimeSlot } from "../types";
 
 interface TimeSlotsProps {
   date: Date;

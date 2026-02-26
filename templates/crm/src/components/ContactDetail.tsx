@@ -9,7 +9,6 @@ import {
   Trash2,
   Edit2,
   Plus,
-  Send,
 } from "lucide-react";
 import type { ContactWithNotes } from "../types";
 import { getContact, deleteContact, createNote, deleteNote } from "../lib/api";

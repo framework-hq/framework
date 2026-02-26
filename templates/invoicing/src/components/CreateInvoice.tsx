@@ -86,7 +86,7 @@ export function CreateInvoice() {
         <div className="bg-white rounded-lg border border-gray-200 p-6">
           <h2 className="font-medium text-gray-900 mb-4">Items</h2>
           <div className="space-y-4">
-            {items.map((item, index) => (
+            {items.map((item) => (
               <div key={item.id} className="flex gap-4 items-start">
                 <div className="flex-1">
                   <input

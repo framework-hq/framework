@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { format } from "date-fns";
-import { ArrowLeft, Send, CreditCard, Download, Trash2, CheckCircle } from "lucide-react";
+import { ArrowLeft, Send, Download, Trash2, CheckCircle } from "lucide-react";
 import type { Invoice } from "../types";
 import { getInvoice, sendInvoice, markAsPaid, deleteInvoice } from "../lib/api";
 import { settings } from "../config";

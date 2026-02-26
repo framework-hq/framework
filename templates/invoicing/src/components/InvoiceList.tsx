@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { format } from "date-fns";
-import { Search, Filter, DollarSign, Clock, AlertCircle, CheckCircle } from "lucide-react";
+import { Filter, DollarSign, Clock, AlertCircle, CheckCircle } from "lucide-react";
 import type { Invoice } from "../types";
 import { getInvoices, getInvoiceSummary } from "../lib/api";
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { format, addWeeks, subWeeks, isSameDay, isToday, isBefore, startOfDay } from "date-fns";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { getWeekDays, isWorkingDay, formatDateShort } from "../lib/calendar";
+import { getWeekDays, isWorkingDay } from "../lib/calendar";
 
 interface CalendarProps {
   selectedDate: Date | null;
