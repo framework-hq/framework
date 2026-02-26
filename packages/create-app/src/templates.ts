@@ -65,4 +65,16 @@ export const TEMPLATES: Template[] = [
       },
     ],
   },
+  {
+    id: "email-sequences",
+    name: "Email Sequences",
+    description: "Automated drip campaigns and email marketing",
+    source: "email-sequences",
+    affiliates: [
+      {
+        name: "Resend",
+        url: "https://resend.com?utm_source=framework",
+      },
+    ],
+  },
 ];

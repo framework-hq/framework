@@ -1,0 +1,45 @@
+{
+  "name": "@framework/template-email-sequences",
+  "version": "0.1.0",
+  "description": "Email automation with sequences and drip campaigns",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.300.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-router-dom": "^6.26.0",
+    "date-fns": "^3.6.0",
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.9.0",
+    "vite": "^5.4.0"
+  },
+  "framework": {
+    "name": "Email Sequences",
+    "description": "Email automation with sequences and drip campaigns",
+    "category": "marketing",
+    "integrations": ["resend", "supabase"],
+    "affiliates": {
+      "resend": {
+        "signup_url": "https://resend.com?utm_source=framework",
+        "disclosure": "FrameWork may receive a commission if you sign up via this link."
+      },
+      "supabase": {
+        "signup_url": "https://supabase.com/dashboard?utm_source=framework",
+        "disclosure": "FrameWork may receive a commission if you sign up via this link."
+      }
+    }
+  }
+}
