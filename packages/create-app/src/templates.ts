@@ -46,4 +46,11 @@ export const TEMPLATES: Template[] = [
       },
     ],
   },
+  {
+    id: "dashboard",
+    name: "Dashboard",
+    description: "Analytics dashboard with charts and KPIs",
+    source: "dashboard",
+    affiliates: [],
+  },
 ];
