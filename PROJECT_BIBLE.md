@@ -100,11 +100,34 @@ framework/
 
 ---
 
+## Progress
+
+### Templates (Phase 1)
+| Template | Status | Integrations |
+|----------|--------|--------------|
+| Landing Page | ✅ Complete | SendGrid |
+| CRM | ✅ Complete | Supabase |
+| Booking | ✅ Complete | Twilio |
+| Dashboard | 🔜 Pending | — |
+| Invoicing | 🔜 Pending | Stripe |
+
+### CLI (Phase 2)
+| Feature | Status |
+|---------|--------|
+| `create-framework` scaffolding | 🔄 In Progress |
+| Template selection | 🔜 Pending |
+| Affiliate link injection | 🔜 Pending |
+
+---
+
 ## Changelog
 
 | Date | Change |
 |------|--------|
 | 2025-02-26 | Project initialized. ADR-001, 002, 003 created. |
+| 2025-02-26 | Template #1: Landing Page with email capture + SendGrid |
+| 2025-02-26 | Template #2: CRM with contacts, notes, tags + Supabase |
+| 2025-02-26 | Template #3: Booking system with calendar + Twilio SMS |
 
 ---
 
