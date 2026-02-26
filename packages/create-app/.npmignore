@@ -1,0 +1,13 @@
+# Source files
+src/
+tsconfig.json
+
+# Template build artifacts
+templates/*/node_modules
+templates/*/.vite
+templates/*/dist
+templates/*/pnpm-lock.yaml
+
+# Misc
+*.log
+.DS_Store

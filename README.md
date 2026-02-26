@@ -17,7 +17,7 @@ Stop paying $50/user/month for tools you only half-use. Get exactly what you nee
 ## Quick Start
 
 ```bash
-npx create-framework my-app
+npx create-framework-app my-app
 cd my-app
 pnpm install
 pnpm dev
