@@ -46,6 +46,8 @@ export default defineConfig({
             { text: 'Booking', link: '/templates/booking' },
             { text: 'Dashboard', link: '/templates/dashboard' },
             { text: 'Invoicing', link: '/templates/invoicing' },
+            { text: 'Email Sequences', link: '/templates/email-sequences' },
+            { text: 'Sales Pipeline', link: '/templates/sales-pipeline' },
           ]
         },
       ],

@@ -1,6 +1,6 @@
 # Templates
 
-FrameWork includes 5 production-ready templates. Each one works out of the box with **demo mode** — no external services required for local development.
+FrameWork includes **7 production-ready templates**. Each one works out of the box with **demo mode** — no external services required for local development.
 
 ## Available Templates
 
@@ -28,6 +28,16 @@ Analytics dashboard with KPIs, charts, and activity feed.
 Invoice management with client tracking and payment processing.
 - **Integration:** Stripe
 - **Port:** 3004
+
+### [Email Sequences](/templates/email-sequences) 🆕
+Automated drip campaigns and email marketing.
+- **Integration:** Resend
+- **Port:** 3005
+
+### [Sales Pipeline](/templates/sales-pipeline) 🆕
+Visual pipeline with deals, stages, and forecasting.
+- **Integration:** Supabase
+- **Port:** 3006
 
 ## Common Features
 
