@@ -1,68 +1,63 @@
 # FrameWork
 
-> Open-source framework for building internal tools. Templates + AI composer + zero vendor lock-in.
+> Production-ready templates for internal tools. Ship in minutes, not months.
 
-**Stop paying for 10 SaaS tools you only half-use. Get exactly what you need — customized, owned, and 10x cheaper.**
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/framework-hq/framework)](https://github.com/framework-hq/framework)
 
-## What is FrameWork?
+## Why FrameWork?
 
-FrameWork provides production-ready templates for common internal tools:
+Stop paying $50/user/month for tools you only half-use. Get exactly what you need — **free, customizable, and self-hosted**.
 
-- 📧 **Email autoresponder** — SendGrid-powered
-- 📊 **CRM** — Contact management with Supabase
-- 📅 **Booking system** — Calendar + SMS reminders via Twilio  
-- 🖥️ **Landing pages** — Fast, customizable, SEO-ready
-- 📈 **Dashboards** — Real-time analytics
-- 💳 **Invoicing** — Stripe-integrated billing
-
-### How it works
-
-1. **Pick templates** you need
-2. **Run one command** to scaffold your stack
-3. **Customize** with natural language or code
-4. **Deploy** anywhere — you own everything
-
-```bash
-npx create-framework@latest my-tools
-```
+- 🚀 **Ship fast** — Working app in 5 minutes
+- 💰 **100% free** — MIT licensed, no hidden fees
+- 🔧 **Fully yours** — It's React + TypeScript, modify anything
+- 🔌 **Pre-integrated** — SendGrid, Stripe, Twilio, Supabase ready
 
 ## Quick Start
 
 ```bash
-# Create a new project
-npx create-framework@latest my-app
-
-# Or install globally
-npm install -g framework-cli
-framework init my-app
+npx create-framework my-app
+cd my-app
+pnpm install
+pnpm dev
 ```
-
-## Features
-
-- 🚀 **Production-ready** — Templates battle-tested in real businesses
-- 🔧 **Fully customizable** — It's your code, modify anything
-- 🤖 **AI-powered** — `framework compose` binds templates with natural language
-- 💰 **No vendor lock-in** — Self-host anywhere, switch providers anytime
-- 📖 **MIT License** — Free forever, use commercially
 
 ## Templates
 
-| Template | Description | Integrations |
-|----------|-------------|--------------|
-| `landing-page` | Marketing page + forms | SendGrid |
-| `crm` | Contact management | Supabase |
-| `booking` | Appointment scheduling | Twilio, Calendar |
-| `dashboard` | Analytics dashboard | — |
-| `invoicing` | Billing system | Stripe |
-| `membership` | Members-only content | Stripe, Supabase |
+| Template | Description | Integration | Port |
+|----------|-------------|-------------|------|
+| `landing-page` | Marketing page with email capture | SendGrid | 3000 |
+| `crm` | Contact management with notes & tags | Supabase | 3001 |
+| `booking` | Appointment scheduling with SMS | Twilio | 3002 |
+| `dashboard` | Analytics with charts & KPIs | — | 3003 |
+| `invoicing` | Invoice management with payments | Stripe | 3004 |
+
+**Demo mode included** — Every template works without configuration for local testing.
+
+## Tech Stack
+
+- **React 18** + **TypeScript**
+- **Vite** — Fast builds
+- **Tailwind CSS** — Utility-first styling
+- **Lucide Icons** — Clean iconography
 
 ## Documentation
 
-Coming soon at [framework-hq.github.io](https://framework-hq.github.io)
+📚 **[Read the docs](https://framework-hq.github.io/framework)** — Getting started, CLI reference, template guides
+
+## vs. Alternatives
+
+| | FrameWork | Retool | Bubble |
+|---|---|---|---|
+| Price | **Free** | $10+/user/mo | $29+/mo |
+| Self-hosted | ✅ | ❌ | ❌ |
+| Code access | ✅ | ❌ | ❌ |
+| Vendor lock-in | **None** | High | High |
 
 ## Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
@@ -70,4 +65,4 @@ MIT — see [LICENSE](LICENSE)
 
 ---
 
-Built with ❤️ by the FrameWork community
+**[⭐ Star us on GitHub](https://github.com/framework-hq/framework)** if FrameWork helps you ship faster!
