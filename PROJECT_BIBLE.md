@@ -108,15 +108,20 @@ framework/
 | Landing Page | ✅ Complete | SendGrid |
 | CRM | ✅ Complete | Supabase |
 | Booking | ✅ Complete | Twilio |
-| Dashboard | 🔜 Pending | — |
-| Invoicing | 🔜 Pending | Stripe |
+| Dashboard | ✅ Complete | — |
+| Invoicing | ✅ Complete | Stripe |
 
 ### CLI (Phase 2)
 | Feature | Status |
 |---------|--------|
-| `create-framework` scaffolding | 🔄 In Progress |
-| Template selection | 🔜 Pending |
-| Affiliate link injection | 🔜 Pending |
+| `create-framework` scaffolding | ✅ Complete |
+| Template selection | ✅ Complete |
+| Affiliate link injection | ✅ Complete |
+
+### Next Up
+- VitePress docs site
+- Launch campaign prep
+- Community templates marketplace
 
 ---
 
@@ -128,6 +133,9 @@ framework/
 | 2025-02-26 | Template #1: Landing Page with email capture + SendGrid |
 | 2025-02-26 | Template #2: CRM with contacts, notes, tags + Supabase |
 | 2025-02-26 | Template #3: Booking system with calendar + Twilio SMS |
+| 2025-02-26 | Template #4: Dashboard with charts and KPIs (Recharts) |
+| 2025-02-26 | Template #5: Invoicing with Stripe payments |
+| 2025-02-26 | CLI `create-framework` complete with all 5 templates |
 
 ---
 

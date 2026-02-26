@@ -53,4 +53,16 @@ export const TEMPLATES: Template[] = [
     source: "dashboard",
     affiliates: [],
   },
+  {
+    id: "invoicing",
+    name: "Invoicing",
+    description: "Invoice management with Stripe payments",
+    source: "invoicing",
+    affiliates: [
+      {
+        name: "Stripe",
+        url: "https://stripe.com/partners?utm_source=framework",
+      },
+    ],
+  },
 ];
