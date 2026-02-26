@@ -77,4 +77,16 @@ export const TEMPLATES: Template[] = [
       },
     ],
   },
+  {
+    id: "sales-pipeline",
+    name: "Sales Pipeline",
+    description: "Visual pipeline with deals, stages, and forecasting",
+    source: "sales-pipeline",
+    affiliates: [
+      {
+        name: "Supabase",
+        url: "https://supabase.com/dashboard?utm_source=framework",
+      },
+    ],
+  },
 ];
