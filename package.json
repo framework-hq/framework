@@ -1,0 +1,30 @@
+{
+  "name": "framework",
+  "version": "0.1.0",
+  "description": "Open-source framework for building internal tools. Templates + AI composer + zero vendor lock-in.",
+  "author": "FrameWork Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/framework-hq/framework.git"
+  },
+  "homepage": "https://github.com/framework-hq/framework",
+  "keywords": ["framework", "internal-tools", "templates", "saas", "open-source"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.1",
+    "eslint": "^10.0.2",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "pnpm@10.30.3"
+}
