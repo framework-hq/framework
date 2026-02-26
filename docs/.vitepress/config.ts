@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'FrameWork',
   description: 'Production-ready templates for internal tools',
+  base: '/framework/',
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
