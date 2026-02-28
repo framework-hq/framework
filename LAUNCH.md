@@ -2,19 +2,21 @@
 
 ## Show HN Post
 
-**Title:** Show HN: FrameWork – Open-source templates for internal tools (CRM, invoicing, booking)
+**Title:** Show HN: FrameWork – 7 open-source templates for internal tools (CRM, invoicing, booking)
 
 **Text:**
 Hey HN,
 
 I built FrameWork because I was tired of paying $50/user/month for internal tools I only half-used.
 
-It's a collection of production-ready templates:
+It's a collection of 7 production-ready templates:
 - CRM (Supabase)
 - Invoicing (Stripe)
 - Booking system (Twilio)
 - Dashboard (Recharts)
 - Landing page (SendGrid)
+- Email sequences (Resend)
+- Sales pipeline (Supabase)
 
 All free, MIT licensed, self-hosted. React + TypeScript + Tailwind.
 

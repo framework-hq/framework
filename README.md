@@ -32,8 +32,12 @@ pnpm dev
 | `booking` | Appointment scheduling with SMS | Twilio | 3002 |
 | `dashboard` | Analytics with charts & KPIs | — | 3003 |
 | `invoicing` | Invoice management with payments | Stripe | 3004 |
+| `email-sequences` | Drip campaigns & automations | Resend | 3005 |
+| `sales-pipeline` | Deal tracking with stages & forecasting | Supabase | 3006 |
 
 **Demo mode included** — Every template works without configuration for local testing.
+
+![FrameWork Templates](https://raw.githubusercontent.com/framework-hq/framework/main/docs/assets/demo.png)
 
 ## Tech Stack
 
