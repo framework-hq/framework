@@ -1,96 +1,50 @@
-# FrameWork Product Roadmap
+# FrameWork Roadmap
 
-## Vision
-Replace expensive SaaS (Salesforce, HubSpot, Zendesk) with free, self-hosted templates SMBs actually own.
+What's coming next for FrameWork.
 
----
+## Now (v0.3)
 
-## Phase 1: Core Templates ✅
-- [x] Landing Page (SendGrid)
-- [x] CRM - Contacts (Supabase)
-- [x] Booking (Twilio)
-- [x] Dashboard (Recharts)
-- [x] Invoicing (Stripe)
+- [x] Voice-input template
+- [x] Real-world examples (Esgrow, HandsOff)
+- [x] Better documentation
+- [ ] .env.example for all templates
+- [ ] Getting started video
 
----
+## Next (v0.4)
 
-## Phase 2: Sales & Marketing (Next)
+### New Templates
+- [ ] **auth** — Supabase or NextAuth authentication
+- [ ] **file-upload** — S3/Cloudflare R2 uploads
+- [ ] **notification-center** — In-app notifications
+- [ ] **admin-panel** — User management
 
-### Template #6: Email Sequences
-**Competes with:** Mailchimp, ConvertKit, ActiveCampaign
-- Drip campaigns
-- Email templates
-- Subscriber management
-- Open/click tracking
-- **Integration:** Resend, SendGrid
+### Improvements
+- [ ] Dark mode for all templates
+- [ ] Mobile responsiveness audit
+- [ ] Better error handling
+- [ ] Loading states
 
-### Template #7: Sales Pipeline
-**Competes with:** Salesforce, Pipedrive, HubSpot CRM
-- Deals with stages (Kanban)
-- Activities (calls, emails, meetings)
-- Contact timeline
-- Revenue forecasting
-- **Integration:** Supabase
+## Later (v0.5+)
 
-### Template #8: Help Desk
-**Competes with:** Zendesk, Freshdesk, Intercom
-- Ticket management
-- Customer portal
-- Canned responses
-- SLA tracking
-- **Integration:** Supabase, Resend
+### Templates
+- [ ] **chat** — Real-time messaging with WebSockets
+- [ ] **kanban** — Generic kanban board (beyond CRM)
+- [ ] **form-builder** — Dynamic form creation
+- [ ] **reporting** — PDF/CSV export
 
----
+### Platform
+- [ ] Template marketplace
+- [ ] One-click deploy to Vercel
+- [ ] Visual customization tool
+- [ ] Paid templates/add-ons
 
-## Phase 3: Automation & Integration
+## Ideas (Backlog)
 
-### Template #9: Forms & Surveys
-**Competes with:** Typeform, Google Forms, JotForm
-- Drag-and-drop builder
-- Conditional logic
-- Embed anywhere
-- Webhook integrations
-
-### Template #10: Workflow Automation
-**Competes with:** Zapier, Make
-- Visual workflow builder
-- Triggers (form submit, new contact, etc.)
-- Actions (send email, update record, etc.)
-- Scheduled workflows
+- AI-powered template generation ("build me a...")
+- Plugin system for integrations
+- Team collaboration features
+- Template versioning/updates
 
 ---
 
-## Phase 4: Team Features
-
-### Multi-user Support
-- User roles (admin, member, viewer)
-- Team invites
-- Activity logs
-- Permissions
-
-### Unified Dashboard
-- All templates in one view
-- Cross-template data
-- Global search
-
----
-
-## Differentiators vs Salesforce
-
-| Feature | Salesforce | FrameWork |
-|---------|------------|-----------|
-| Price | $25-300/user/mo | Free |
-| Self-hosted | ❌ | ✅ |
-| Data ownership | ❌ | ✅ |
-| Customization | Limited | Unlimited |
-| Vendor lock-in | High | None |
-| Setup time | Weeks | Minutes |
-
----
-
-## Priority Order
-1. Email Sequences (highest demand)
-2. Sales Pipeline (Salesforce killer)
-3. Help Desk
-4. Forms
-5. Workflow Automation
+**Have ideas?** [Open an issue](https://github.com/framework-hq/framework/issues/new) or contribute directly.
