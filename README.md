@@ -1,20 +1,41 @@
 # FrameWork
 
-> Production-ready templates for internal tools. Ship in minutes, not months.
+React templates for internal tools. Free. No vendor lock-in. Probably over-engineered.
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/framework-hq/framework)](https://github.com/framework-hq/framework)
+---
 
-## Why FrameWork?
+## The honest backstory
 
-Stop paying $50/user/month for tools you only half-use. Get exactly what you need — **free, customizable, and self-hosted**.
+I watched an [Alex Becker video](https://www.youtube.com/...) about how SaaS is dying and people just need simple internal tools without paying $50/user/month to Retool. 
 
-- 🚀 **Ship fast** — Working app in 5 minutes
-- 💰 **100% free** — MIT licensed, no hidden fees
-- 🔧 **Fully yours** — It's React + TypeScript, modify anything
-- 🔌 **Pre-integrated** — SendGrid, Stripe, Twilio, Supabase ready
+I was dumb enough to actually try building it.
 
-## Quick Start
+Turns out he was right about the problem, but building templates that work for everyone is harder than it looks. This is my attempt.
+
+## What this actually is
+
+A collection of React + TypeScript templates for common internal tools:
+
+- **CRM** — track contacts, add notes, tag people
+- **Landing page** — collect emails, send to SendGrid
+- **Booking** — schedule appointments, SMS reminders via Twilio
+- **Dashboard** — charts and KPIs
+- **Invoicing** — create invoices, accept Stripe payments
+- **Email sequences** — drip campaigns via Resend
+- **Sales pipeline** — kanban board for deals
+
+Each one is a standalone Vite app. Clone it, `pnpm install`, customize, deploy. That's it.
+
+## What this is NOT
+
+- Not a framework (ironic, I know)
+- Not a no-code builder
+- Not production-ready out of the box — you'll need to wire up your own auth, add your API keys, etc.
+- Not going to replace a real engineering team
+
+If you want something that just works with zero config, use Retool. This is for developers who'd rather own their code than pay monthly fees forever.
+
+## Quick start
 
 ```bash
 npx create-framework-app my-app
@@ -23,50 +44,64 @@ pnpm install
 pnpm dev
 ```
 
+Pick a template, hack on it, deploy wherever you want. MIT licensed, do whatever.
+
 ## Templates
 
-| Template | Description | Integration | Port |
-|----------|-------------|-------------|------|
-| `landing-page` | Marketing page with email capture | SendGrid | 3000 |
-| `crm` | Contact management with notes & tags | Supabase | 3001 |
-| `booking` | Appointment scheduling with SMS | Twilio | 3002 |
-| `dashboard` | Analytics with charts & KPIs | — | 3003 |
-| `invoicing` | Invoice management with payments | Stripe | 3004 |
-| `email-sequences` | Drip campaigns & automations | Resend | 3005 |
-| `sales-pipeline` | Deal tracking with stages & forecasting | Supabase | 3006 |
+| Template | What it does | Integrations |
+|----------|--------------|--------------|
+| `crm` | Contact management | Supabase |
+| `landing-page` | Email capture | SendGrid |
+| `booking` | Appointments + SMS | Twilio |
+| `dashboard` | Charts & metrics | — |
+| `invoicing` | Invoices + payments | Stripe |
+| `email-sequences` | Drip campaigns | Resend |
+| `sales-pipeline` | Deal tracking | Supabase |
 
-**Demo mode included** — Every template works without configuration for local testing.
+All templates work in demo mode without config, so you can poke around before committing.
 
-![FrameWork Templates](https://raw.githubusercontent.com/framework-hq/framework/main/docs/assets/demo.png)
+## Stack
 
-## Tech Stack
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS
+- Lucide icons
 
-- **React 18** + **TypeScript**
-- **Vite** — Fast builds
-- **Tailwind CSS** — Utility-first styling
-- **Lucide Icons** — Clean iconography
+Nothing weird. Standard stuff you already know.
 
-## Documentation
+## Why not just use [Retool/Bubble/whatever]?
 
-📚 **[Read the docs](https://framework-hq.github.io/framework)** — Getting started, CLI reference, template guides
+Honestly, those are fine. Use them if:
+- You hate writing code
+- You have budget
+- You don't care about vendor lock-in
 
-## vs. Alternatives
+Use this if:
+- You're a developer who'd rather own the code
+- You're broke or cheap (same thing)
+- You've been burned by platforms shutting down or jacking up prices
 
-| | FrameWork | Retool | Bubble |
-|---|---|---|---|
-| Price | **Free** | $10+/user/mo | $29+/mo |
-| Self-hosted | ✅ | ❌ | ❌ |
-| Code access | ✅ | ❌ | ❌ |
-| Vendor lock-in | **None** | High | High |
+## Real-world example
+
+I built [Esgrow](https://getesgrow.com) — a CRM for real estate agents — using the same patterns as these templates. It started as basically the CRM template, then I added auth, Gmail sync, AI lead scoring, etc.
+
+The templates here are the "starter" version. Esgrow is what it looks like after a few months of iteration. Proof these patterns actually scale to real products.
+
+## Known issues / honest limitations
+
+- Auth is BYO — I use Supabase but you do you
+- Mobile responsiveness is inconsistent across templates
+- Some templates are more polished than others
+- Docs are sparse (PRs welcome)
 
 ## Contributing
 
-PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
+Found a bug? Fixed something? Made it suck less? PRs welcome.
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+MIT. Do whatever. I'm not your lawyer.
 
 ---
 
-**[⭐ Star us on GitHub](https://github.com/framework-hq/framework)** if FrameWork helps you ship faster!
+Built because I watched a YouTube video and thought "how hard could it be?" (Very.)
