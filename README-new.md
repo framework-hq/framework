@@ -23,7 +23,6 @@ A collection of React + TypeScript templates for common internal tools:
 - **Invoicing** — create invoices, accept Stripe payments
 - **Email sequences** — drip campaigns via Resend
 - **Sales pipeline** — kanban board for deals
-- **Voice input** — voice-to-action with Whisper + GPT (NEW)
 
 Each one is a standalone Vite app. Clone it, `pnpm install`, customize, deploy. That's it.
 
@@ -82,15 +81,11 @@ Use this if:
 - You're broke or cheap (same thing)
 - You've been burned by platforms shutting down or jacking up prices
 
-## Real-world examples
+## Real-world example
 
-I've built two products using these patterns:
+I built [Esgrow](https://getesgrow.com) — a CRM for real estate agents — using the same patterns as these templates. It started as basically the CRM template, then I added auth, Gmail sync, AI lead scoring, etc.
 
-**[Esgrow](https://getesgrow.com)** — CRM for real estate agents. Started as the CRM template, then added auth, Gmail sync, AI lead scoring, transaction management. Now a real product with paying users.
-
-**[HandsOff](https://handsoff.vercel.app)** — Voice-to-CRM plugin. Built on the voice-input template. Real estate agents speak notes after showings, it creates CRM entries automatically. Whisper + GPT + the CRM adapter pattern.
-
-The templates here are the "starter" versions. These products are what they look like after real iteration. Proof these patterns actually scale.
+The templates here are the "starter" version. Esgrow is what it looks like after a few months of iteration. Proof these patterns actually scale to real products.
 
 ## Known issues / honest limitations
 
