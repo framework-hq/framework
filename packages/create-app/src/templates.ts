@@ -89,4 +89,16 @@ export const TEMPLATES: Template[] = [
       },
     ],
   },
+  {
+    id: "affiliate",
+    name: "Affiliate/Referral Program",
+    description: "Complete referral system with tracking, attribution, and payouts",
+    source: "affiliate",
+    affiliates: [
+      {
+        name: "Supabase",
+        url: "https://supabase.com/dashboard?utm_source=framework",
+      },
+    ],
+  },
 ];
